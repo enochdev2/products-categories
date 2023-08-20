@@ -1,10 +1,10 @@
 import React from 'react'
-import ProductApp from './Component/Product/Products/ProductsApp'
+import ProductsApp from './Products/ProductsApp';
 
 
 const App = () => {
   return (
-    <ProductApp />
+    <ProductsApp/>
   )
 }
 

@@ -45,7 +45,7 @@ const url = 'https://fakestoreapi.com/products?limit=20';
   return (
     <div className='container'>
       <div className="menu-heading">
-        <h1 className='h1'>Our Menu</h1>
+        <h1 className='h1'>Our Product</h1>
         <ProductCategory categori={categori} filterData={filterData} />
       </div>
       <ProductsData data={data} setData={setData}/>
